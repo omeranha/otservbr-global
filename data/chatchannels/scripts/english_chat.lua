@@ -1,5 +1,5 @@
 function onSpeak(player, type, message)
-	if player:getLevel() < 20 and not player:isPremium() then
+	if player:getLevel() < configManager.getNumber(configKeys.CHAT_LEVEL) and not player:isPremium() then
 		player:sendCancelMessage("You may not speak in this channel unless you have reached level 20 or your account has premium status.")
 		return false
 	end
