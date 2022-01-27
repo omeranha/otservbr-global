@@ -2174,6 +2174,9 @@ void LuaScriptInterface::registerFunctions()
 	registerEnumIn("configKeys", ConfigManager::CLIENT_VERSION_STR)
 	registerEnumIn("configKeys", ConfigManager::PARTY_LIST_MAX_DISTANCE)
 
+	registerEnumIn("configKeys", ConfigManager::HELP_LEVEL)
+	registerEnumIn("configKeys", ConfigManager::CHAT_LEVEL)
+
 	registerEnumIn("configKeys", ConfigManager::SQL_PORT)
 	registerEnumIn("configKeys", ConfigManager::MAX_PLAYERS)
 	registerEnumIn("configKeys", ConfigManager::PZ_LOCKED)

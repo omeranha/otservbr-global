@@ -77,6 +77,10 @@ staminaGreenDelay = 5
 staminaPzGain = 1
 -- Max players allowed on a dummy.
 maxAllowedOnADummy = 1
+-- Minimum level to be able to speak in chats
+-- help, advertising and english
+helpLevel = 1
+chatLevel = 20
 
 -- Imbuement
 togleImbuementShrineStorage = false

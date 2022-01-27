@@ -249,6 +249,8 @@ bool ConfigManager::load()
 
 	integer[PUSH_DELAY] = getGlobalNumber(L, "pushDelay", 1000);
 	integer[PUSH_DISTANCE_DELAY] = getGlobalNumber(L, "pushDistanceDelay", 1500);
+	integer[HELP_LEVEL] = getGlobalNumber(L, "helpLevel", 1);
+	integer[CHAT_LEVEL] = getGlobalNumber(L, "chatLevel", 20);
 
 	floating[RATE_HEALTH_REGEN] = getGlobalFloat(L, "rateHealthRegen", 1.0);
 	floating[RATE_HEALTH_REGEN_SPEED] = getGlobalFloat(L, "rateHealthRegenSpeed", 1.0);
